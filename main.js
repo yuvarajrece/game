@@ -7,7 +7,7 @@ if(player){
         let playerOne = playerChoice.trim().toLowerCase();
         if(playerOne==="rock"||playerOne==="paper"||playerOne==="scissors"){
             
-            let computerChoice = (Math.floor(Math.random())*3+1);
+            let computerChoice = Math.floor(Math.random()*3+1);
 
             let computer = computerChoice === 1 ?"rock":
             computerChoice === 2 ?"paper":
